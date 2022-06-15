@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap');
+body {
+  background: linear-gradient(90deg, #3498db, #fd79a8);
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.container {
+  position: relative;
+  background-color: #fff;
+  padding: 50px 30px;
+  text-align: center;
+  border-radius: 5px;
+  color: #333;
+}
+
+button {
+  border: none;
+  background-color: #fd79a8;
+  color: #fff;
+  border-radius: 3px;
+  padding: 12px 24px;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.4s;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.check {
+  background-color: #fd79a8;
+  padding: 20px;
+  width: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: -20%;
+  right: 36%;
+}
+
+ion-icon {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+h1 {
+  font-weight: 600;
+}
